@@ -14,6 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-kubectl exec zoo-0 -n kafka -- /zookeeper-3.4.9/bin/zkCli.sh create /foo bar;
-kubectl exec zoo-2 -n kafka -- /zookeeper-3.4.9/bin/zkCli.sh get /foo;
+kubectl exec zoo-0 -n kafka -- /zookeeper-3.4.9/bin/zkCli.sh create /foo11 bar11;
+kubectl exec zoo-2 -n kafka -- /zookeeper-3.4.9/bin/zkCli.sh get /foo11;
 

@@ -1,19 +1,33 @@
-# How to use from me
+# How to use for AWS integration  (Use storageclass)
 1 Create for zookeeper
-kubectl create -f ./zookeeper/
+```
+  kubectl create -f ./zookeeper/
+``` 
 2 Check
-  2.1 Check with ./zookeeper/test.sh
-  2.2 Check the AWS EC2 - Volume
-      10 3G images are created
+
+   2.1 Check with ./zookeeper/test.sh
+  
+   2.2 Check the AWS EC2 - Volume
+  
+       In AWS, 10 3G images are created
+      
 3 Create kafka
-kubectl create -f .
+```
+   kubectl create -f .
+```
 4 Check
-  4.1 Create successful (already exists error is fine)
-  4.2 kubectl get pods,svc,statefulset -n kafka
-  4.3 3 3G images are created
+
+   4.1 Create successful (already exists error is fine)
+  
+   4.2 kubectl get pods,svc,statefulset -n kafka
+  
+   4.3 3 additional 3G images are created in AWS
+  
 5 Test with test folder
+
 6 Restart computer, the message still exists
 
+#
 
 # Below is old usage:
 

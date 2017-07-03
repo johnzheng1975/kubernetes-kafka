@@ -1,4 +1,4 @@
-# How to use from me
+# How to use for AWS integration  (Use storageclass)
 1 Create for zookeeper
 ```
   kubectl create -f ./zookeeper/
@@ -21,12 +21,13 @@
   
    4.2 kubectl get pods,svc,statefulset -n kafka
   
-   4.3 3 3G images are created
+   4.3 3 additional 3G images are created in AWS
   
 5 Test with test folder
 
 6 Restart computer, the message still exists
 
+#
 
 # Below is old usage:
 
